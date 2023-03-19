@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.solid-shadow {
+		box-shadow: #000 4px 4px 0;
+	}
+	.solid-shadow-xl {
+		box-shadow: 8px 8px #000;
+	}
+	.hidden-scroll {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+	.hidden-scroll::-webkit-scrollbar {
+		display: none;
+	}
+}

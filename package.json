@@ -26,6 +26,7 @@
 	"type": "module",
 	"dependencies": {
 		"@supabase/supabase-js": "^2.11.0",
-		"dotenv": "^16.0.3"
+		"dotenv": "^16.0.3",
+		"pocketbase": "^0.12.1"
 	}
 }
