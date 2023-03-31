@@ -13,6 +13,7 @@ export const actions = {
 
 		try {
 			await locals.pb.collection('users').create(user);
+			await locals.pb.collection("users").authWithPassword(name,pass)
 		} catch (err) {
 			console.log(err);
 			return fail(400, { invalid: true, 
@@ -20,8 +21,7 @@ export const actions = {
                                       Password Must Between 8 and 72,
                                       Password and Confirm Password Must Be Match` });
 		}
-
-		throw redirect(303, '/login');
+		throw redirect(303,"/")
 	}
 };
 
