@@ -3,21 +3,21 @@
 </script>
 <div class="mt-16 flex justify-center items-center">
 	<form method="POST"class="flex flex-col gap-4 text-xl">
-		<label for="name">Name</label>
+		<label for="name" class="inline-block w-0">Name</label>
 		<input
 			type="text"
 			id="name"
 			name="name"
 			class="w-60 border-4 transition-all ease-linear duration-200  focus:scale-110 focus:solid-shadow border-yellow-300 outline-none"
 		/>
-		<label for="pass">Password</label>
+		<label for="pass" class="inline-block w-0">Password</label>
 		<input 
 			type="password"
 			id="pass"
 			name="pass"
 			class="w-60 border-4 transition-all ease-linear duration-200  focus:scale-110 focus:solid-shadow border-yellow-300 outline-none"
 		/>
-        <label for="confpass">Confirm Password</label>
+        <label for="confpass" class="inline-block w-40">Confirm Password</label>
 		<input 
 			type="password"
 			id="confpass"
