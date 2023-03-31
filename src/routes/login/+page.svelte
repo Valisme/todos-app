@@ -1,7 +1,7 @@
 <script>
     export let form;
 </script>
-<div class="mt-20 text-xl flex justify-center items-center">
+<div class="mt-20 text-xl flex flex-col justify-center items-center">
 	<form method="POST"class="flex flex-col gap-4">
 		<label for="name" class="inline-block w-16">Name</label>
 		<input
